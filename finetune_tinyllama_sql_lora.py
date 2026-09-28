@@ -11,9 +11,6 @@ Pipeline:
     7. Re-run the same probes on the FINE-TUNED model and compare
     8. Save only the LoRA adapter (a few MB)
 
-Plain LoRA is used here (no QLoRA / no 4-bit quantization).
-Tested target: Colab free tier, Tesla T4 (16 GB VRAM).
-
 Usage:
     pip install -r requirements.txt
     python finetune_tinyllama_sql_lora.py
